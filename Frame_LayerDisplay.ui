@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame_LayerDisplay</class>
+ <widget class="QFrame" name="Frame_LayerDisplay">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>638</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::StyledPanel</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Terrain Outline Shader</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="terrainOutline"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Terrain Fill Shader</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="terrainFill"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Water Outline Shader</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="waterOutline"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Water Fill Shader</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="waterFill"/>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Meshes</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="meshesList"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
